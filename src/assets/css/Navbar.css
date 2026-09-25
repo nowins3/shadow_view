@@ -1,0 +1,145 @@
+body {
+  align-items: center;
+  justify-content: center;
+}
+/* Navbar Container */
+.tv-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: #d1d4dc;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu,
+    sans-serif;
+}
+/* Scroll Effect: Transparent on scroll */
+
+/* Left Section: Logo */
+.tv-logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.tv-logo-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+/* Center Section: Search & Links */
+.tv-nav-center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 800px;
+  margin: 0 40px;
+  margin-left: 200px;
+}
+
+.tv-search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  padding: 10px 10px 10px 15px;
+  border-radius: 30px;
+  background-color: #1e222d;
+  color: rgb(85, 87, 90);
+  gap: 10px;
+  margin-right: 24px;
+}
+.tv-search-container:hover {
+  color: white;
+}
+
+.tv-nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.tv-nav-links li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.tv-nav-links li:hover {
+  color: #ffffff;
+}
+
+/* Right Section: Icons & Button */
+.tv-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tv-icon-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s;
+}
+.tv-icon-button-user {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s;
+}
+
+.tv-icon-button:hover {
+  color: #ffffff;
+}
+
+.tv-lang-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* The Gradient Button */
+.tv-btn-get-started {
+  background: linear-gradient(90deg, #c8b80a 0%, #07c3a3 50%, #9c27b0 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.tv-btn-get-started:hover {
+  opacity: 0.9;
+}
+
+/* Responsive: Hide center on small screens */
+@media (max-width: 1024px) {
+  .tv-nav-center {
+    display: none;
+  }
+}

@@ -1,0 +1,107 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.homePromotion {
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 90%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color: antiquewhite;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu,
+    sans-serif;
+}
+.promotion-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 350px;
+}
+.home-btn-get-started {
+  background: linear-gradient(90deg, #000000 0%, #0726c3 50%, #b05227 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px 10px 15px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+  margin: 30px;
+}
+
+.tv-btn-get-started:hover {
+  opacity: 0.9;
+}
+.quote-1 {
+  font-weight: 900;
+  font-size: 100px;
+}
+.quote-2 {
+  font-size: 20px;
+  font-weight: 200;
+  color: darkgray;
+}
+.feature-advert {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 90%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../img/feature-advert.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.advert-quote-1 {
+  font-weight: 900;
+  font-size: 60px;
+}
+.advert-quote-2 {
+  font-size: 20px;
+  font-weight: 200;
+  color: darkgray;
+}
+.btn-explore {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 200px;
+  padding: 10px 15px 10px 15px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+  margin: 30px;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu,
+    sans-serif;
+}

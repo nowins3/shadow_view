@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 50px 1fr 320px;
+  width: 100vw;
+  overflow: hidden;
+  height: 94vh;
+  background-color: gainsboro;
+}
+
+.tools-container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-right: 2px solid gainsboro;
+  border-top: 2px solid gainsboro;
+  align-items: center;
+  justify-content: top;
+  background-color: white;
+}
+
+.chart-container {
+  border: 2px solid gainsboro;
+  border-bottom: none;
+  background-color: white;
+}
+.watchlist-container {
+  padding-left: 8px;
+  border-left: 4px solid gainsboro;
+  border-top: 2px solid gainsboro;
+  overflow-y: auto;
+  background-color: white;
+}
+
+/* Chart Header Styles */
+.chart-header {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid gainsboro;
+}
+
+.chart-utilities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chart-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chart-index {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 20px;
+  padding: 5px;
+}
+.chart-datatype {
+  padding: 4px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.chart-symbol {
+  font-size: 0.75rem;
+}
+
+.chart-trade-btn {
+  padding: 3px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  border-width: 2px;
+  border-color: gainsboro;
+  border-style: solid;
+}
+
+.chart-publish-btn {
+  width: 70px;
+  color: white;
+  padding: 3px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-right: 5px;
+}
+
+.chart-add-symbol {
+  padding-right: 15px;
+  padding-left: 10px;
+  border-right: 1px solid gainsboro;
+}
+
+.chart-time-range {
+  padding-right: 15px;
+  padding-left: 5px;
+  border-right: 1px solid gainsboro;
+}
+
+.chart-style {
+  padding-right: 15px;
+  border-right: 1px solid gainsboro;
+}
+
+.chart-user {
+  margin-left: 5px;
+}
+
+.chart-indicators-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.chart-indicator-label {
+  font-size: 0.75rem;
+}
+
+.chart-templates {
+  padding-right: 15px;
+  border-right: 1px solid gainsboro;
+}
+
+.chart-alerts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.chart-replay-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.chart-alerts-label {
+  font-size: 0.75rem;
+}
+.chart-replay-label {
+  font-size: 0.75rem;
+  padding-right: 15px;
+  border-right: 1px solid gainsboro;
+}
+
+.chart-dropdown {
+  padding-right: 15px;
+  border-right: 1px solid gainsboro;
+}
